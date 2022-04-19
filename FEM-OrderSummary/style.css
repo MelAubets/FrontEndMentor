@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background-color: hsl(225, 100%, 95%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    box-sizing: border-box;
+    width: 30%;
+    height: 60%;
+    margin-top: 10%;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px hsl(224, 23%, 55%, 0.4);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+@media (max-width: 600px){
+
+    main{
+        background-color: hsl(225, 100%, 95%);
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Illus{
+    box-sizing: border-box;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    box-sizing: border-box;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+
+p{
+    box-sizing: border-box;
+    margin-left: 10%;
+    width: 80%;
+    color:hsl(224, 23%, 55%);
+}
+
+table{
+    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.Plan{ color:hsl(223, 47%, 23%); }
+.Price{ color: hsl(224, 23%, 55%); }
+.Plan, .Price{ text-align: left; }
+
+button{
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    margin-top: 7%;
+    border-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+td a{
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.Button1{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 10px 10px hsl(224, 23%, 55%, 0.4);
+}
+
+.Button2{
+    box-sizing: border-box;
+    width:fit-content;
+    background-color: transparent;
+    color:hsl(224, 23%, 55%);
+    margin-bottom: 7%;
+}
+
+td a:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 52%,0.7);
+}
+
+.Button1:hover{ background-color:hsl(245, 75%, 52%,0.7);}
+
+.Button2:hover{ color:hsl(223, 47%, 23%); }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+

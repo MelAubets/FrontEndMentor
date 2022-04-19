@@ -1,0 +1,50 @@
+html{
+   background-color: #d5e1ef;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.External{
+    box-sizing: border-box;
+    width: 20%;
+    height: 40%;
+    background-color: #fffffe;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px){
+    .External{
+        width: 50%;
+    }
+}
+
+.QRImage{
+    width: 99%;
+    border-radius: 10px;
+}
+
+.Internal{
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 10%;
+    width: 90%;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: smaller;
+    color: gray;
+    margin-bottom: 10%;
+}
+
+strong{
+    color: #1a2436;
+}
